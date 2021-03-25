@@ -1,0 +1,123 @@
+body{
+    background-color: white;
+    padding:20px;
+}
+div{
+    float:left;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+div img{
+    float:left;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+    
+}
+.div1 {
+    float:right;
+    padding:10px;
+    clear:both;
+    
+} 
+div p{
+    font-size: 20px;
+    color: rgb(119, 115, 115);
+    padding-left:0px ;
+}
+
+nav{
+    float:right;
+}
+.lastimg {
+ margin-left: 10px;
+}
+main{
+    clear:both;
+}
+h2{
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#hp {
+ font-size: 20px;
+ color: rgb(119, 115, 115);
+ margin-bottom: 2px;
+ text-align: left;
+}
+.line{
+    background-color:  rgb(119, 115, 115);
+    padding:2px;
+}
+.par1{
+    font-size: 20px;
+    color: rgb(119, 115, 115);
+    
+}
+#sec1{
+    padding-bottom: 30px;
+}
+#sec1 p {
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+#sec1 img{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+#sec2 {
+    background-image:url('/Images/list-bg.png');
+    background-position : center; 
+    height:300px; 
+    padding-right: 10%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#form1{
+    float: left;
+}
+#form2{
+    float: right;
+}
+input[type=checkbox]:checked + label{
+    color: black;
+    text-decoration: line-through;
+}
+label{
+    font-family:'Patric Hand', monospace;
+}
+#sec3{
+    clear:both;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 30px;
+}
+#sec3 img{
+    float:left;
+}
+#sec3 p {
+text-align: left;
+}
+#share {
+    background-color: rgb(122, 11, 11);
+    float:right;
+    padding: a25px;
+    margin-top: 20px;
+}
+footer{
+    clear:both;
+    text-align: center;
+
+}
+
