@@ -1,282 +1,291 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+body { 
     width: 70%;
-    margin: 0 auto;
-    text-align: center;
-    font-family: 'PT Serif', serif;
-  }
-  
-.navBar {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+
 }
-  
-.logo-img {
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-right: 10px;
-    font-size: 13px;
-    line-height: inherit;
-    white-space: nowrap;
-    float: left;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-start;
-    color: black;
-  }
-  
-  .logo{
-    width: 40px;
-    height: 40px;
-    padding: 5px;
-    background-color: rgb(52, 52, 52);
-    vertical-align: top;
-  }
-  
-  .logo-img>h2 {
-    font-family: 'Kaushan Script', cursive;
-    flex: 1;
-    padding-left: 7px;
-    text-align: left;
-    font-size: 25px;
-    font-weight: bold;
-  }
-  
-  
-  .logoText {
-    font-size: 10px;
-    position: relative;
-    display: block;
-    font-family: 'PT Serif', serif;
-    color:rgb(139, 138, 138);
-  }
-  
-  .float-fix {
-    clear: both;
-  }
-  
-  .socialLogo {
-    position: relative;
-    display: block;
-    float: right;
-    margin-top: 10px;
-  }
-  
-  .socialLogo li {
-    display: inline;
-  }
-  
-  .socialLogo li a {
-    text-decoration: none;
-  }
-  .lastimg{
-    padding-left: 10px;
-  }
-  
-  .line {
-    
-    background-image: repeating-linear-gradient(45deg, rgb(255, 255, 255) 0%, rgb(0, 0, 0) 10%);
-    background-size: 20px 20px;
-    width: 100%;
-    height: 20px;
-    margin: 80px;
-    margin-left: 0;
-    margin-right: 0;
-    
-  }
-  
-  .sec2 {
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: capitalize;
-    text-align: left;
-  }
-  
-  .sec1 h2 {
-    display: inline;
-    float: left;
-    font-size: 40px;
-    font-family: 'New Tegomin', serif;
-    font-weight: bold;
-  }
-  
-  .sec1 span {
-    display: block;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    font-weight: 200;
-    color:rgb(139, 138, 138);
-    margin-top: 0.3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 20px;
-  }
-  
-  .print-button {
+header {
+    margin-left: 50px ;
+}
+.print-button {
     border: 0;
     cursor: pointer;
-  }
-  
-  .print-button:focus {
-    outline: none;
-  }
-  
-  .print-button {
-    margin-top: 2rem;
     float: right;
-    font-size: 0.8rem;
+    font-size: 14px;
     text-transform: uppercase;
     font-weight: 200;
-    background-color: transparent;
-  }
+    background-color: transparent; 
+    margin-top: -3.4rem;
+}
+
+.float-fix {
+  clear: both;
+}
+
+.socialLogo {
+  position: relative;
+  display: block;
+  float: right;
+  margin-top: -50px;
+}
+
+.socialLogo li {
+  display: inline;
+}
+
+.socialLogo li a {
+  text-decoration: none;
+}
+.lastimg{
+  padding-left: 10px;
+}
+
+/* .navBar {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
   
-  .print-img {
-    width: 12px;
-    height: 12px;
-  }
+h4 {
+    font-family: 'Pacifico', cursive; 
+    font-size: 30px;
+    margin-top: 20px;
+}
   
-  .choco-pizza {
-    width: 100%;
-    margin: 20px;
-    margin-left: 0;
-    margin-right: 0;
-  }
+h5 {
+    font-family: 'VT323', monospace; 
+    color: grey;
+    font-size: 13px;
+    margin-left: 7px;
   
-  article p {
-    text-transform: capitalize;
-    color: rgb(151, 118, 110);
-    text-align: left;
-    padding-bottom: 1.5rem;
-    text-indent: 50px;
-    font-size: 1.05rem;
-    line-height: 25px;
-  }
+}
   
-  .sec2 {
+.navBar ul{
+  
+    float: right;
+    margin-top: 2px;
+    margin-left: -29px;
+    margin-top: 40px;
+  
+}
+  
+.navBar ul li {
+    display: inline-block;
+    
+  
+}
+.navBar ul li img {
+    border-radius: 5px;
+}
+  
+.navBar ul li:last-child {
+    margin-left: 1px;
+} */
+  
+
+  
+h2 {
+  font-family: 'Kaushan Script', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: -50px;
+    margin-left:60px ;
+   
+}
+  
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 40px;
+    color: black;
+    padding: 10px;
+ }
+.logoText {
+  font-size: 14px;
+   position: relative;
+   display: block;
+  font-weight: 200;
+  font-family: 'PT Serif', serif;
+   text-transform: uppercase;
+   color: grey;
+ 
+}   
+
+.logo {
+    height: 55px;
+    width: 55px ;
+    border-radius: 5px;
+    margin-right: 10px;
+    margin-top: 50px;
+
+} 
+.line {
+background-image: url('/assets/hr-img.png');
+width: 100%;
+height: 20px;
+margin: 30px;
+margin: 0px 0px 0px 0px;
+
+}
+.span2 {
+    font-size: 0.9rem;
+   position: relative;
+   display: block;
+  font-weight: 200;
+  font-family: 'PT Serif', serif;
+   text-transform: uppercase;
+   color: grey;
+ 
+}
+main {
+     
+   margin-left: 5%;
+}
+
+.par1{
+  margin-left: 0px; 
+  color: gray; 
+  text-indent: 30px;
+  margin-right: 20px;
+}
+
+.leftlist
+{  
+    font-size: 20px;
+   float: left;
+
+    width: 50%;
+    color: grey;
     font-family: 'Pangolin', cursive;
-    height: 175px;
+}
+.rightlist
+{
+    font-size: 20px;
+   float: right;
+    width: 50%;
+    font-family: 'Pangolin', cursive;
+    color: grey;
+}
+.sec2
+{
     position: relative;
-    margin: 20px auto;
+    margin-top: 100px;
+    margin-bottom: 90px;
+     
     padding-top: 40px;
     padding-bottom: 40px;
-    background-color: rgb(254, 251, 234);
-    box-shadow: 0px 0px 5px 0px #888;
-  }
-  
-  .sec2::before {
-    content: '';
-    width: 2px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 40px;
-    background-color: rgba(255, 0, 0, 0.6);
-  }
-  
-  .pattern {
-    height: 100%;
-    background-image: repeating-linear-gradient(rgb(254, 251, 234) 0px, rgb(254, 251, 234) 24px, teal 25px);
-  }
-  
-  .list {
-    padding-top: 6px;
-    padding-left: 56px;
-    padding-right: 16px;
-    line-height: 25px;
-    font-size: 1.2rem;
-    text-align: left;
-    color: rgb(138, 123, 101);
-  }
-  
-  .listleft {
-    float: left;
-    width: 50%;
-  }
-  
-  .listright {
-    width: 50%;
-    float: right;
-  }
-  
-  .listleft li:before,
-  .listright li:before {
-    content: "\2610";
-    margin-right: 5px;
-  }
-  
-  .check {
-    text-decoration: line-through;
+   
+}
+
+.pattern
+{
+  clear: both;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('/assets/list-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 200px;
     
-  }
+} 
   
-  .checked:before {
+
+.leftlist li, .rightlist li {
+    list-style: none;
+    
+}
+
+.leftlist li:before, .rightlist li:before{ 
+    content: "\2610";
+    margin-right: .5rem;
+}
+
+ .checked:before {
     content: "\2611" !important;
-    text-decoration: none !important;
-    margin-right: 5px;
-  }
-  
-  .sec3 {
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 10px;
-  }
-  
-  .vanSec {
-    padding-top:3px;
-    padding-bottom: 3px;
-    margin-right: 10px;
-    float: left;
-    text-align: left;
-    width: 70%;
-    display: flex;
-    align-items: flex-start;
-  }
-  
-  .vanImg {
-    user-select: none;
-    width: 50px;
-    border-radius: 50%;
-  }
-  
-  .vanInf {
-    flex: 1;
-    padding-left: 10px;
-  }
-  
-  .vanName {
-    margin-top: 0;
-    font-size: 30px;
-    font-size: 30px;
-  }
-  
-  .vanHob {
-    display: block;
-    margin-top: 0;
-    font-size: 20px;
-    margin-bottom: 70px;
 
   }
+
+.check {
+    text-decoration: line-through; 
+}
+
+
+#footerpic {
+    margin: -60px 0px 4px 0px; 
+    height: 38px;
+    width:  38px;
+    z-index: +1; 
+    padding: 0px 0px 0px 47%;
+}
+
+footer { 
+ 
+    margin-left:49px;
+   
+
+}
+hr {
+    width: 100%;
   
-  
-  .share {
-    float: right;
-    width: 100px;
-    margin-top: 0.5px;
-    background-color: rgb(188, 112, 88);
-    color: white;
-    font-weight: 200;
-  }
-  footer{
-    clear: both;
-    display: block;
-   margin-top: 80px 70px 10px 70px;
-  }
+}
+
+
+footer p {
+    text-align: center; 
+    color: gray;
+ }
+ 
+ .vanImg {
+   float: left;
+   margin-right: 0px;
+  margin-left: 0px;
+  width: 70px; 
+  height: 50px; 
+  border-radius: 50%;
+ } 
 
  
-  footer p {
-    font-weight: 100;
-    font-size:15px;
-    line-height: 20px;
-    font-family:Arial, Helvetica, sans-serif;
-    margin-top: 0;
-    color: rgb(139, 138, 138);;
-  } 
+
+
+.vanSec p {
+padding: 7px 0px 0px 30px;
+text-indent: 0px;
+font-size: 23px; 
+display: inline-block; 
+ text-align: justify; 
+ margin: 5px 0px 0px -5px;
+ padding-left: 80px;
+ color: rgba(0, 0, 0, 0.596);
+ font-family: 'PT Serif', serif;
+ font-size: 15px;
+}
+
+.vanSec {
+  width: 75%; float: left;
+    padding: 4px 0px 56px 0px;
+}
+
+.vanName { 
+ color: black;
+ font-family: 'PT Serif', serif;
+ font-size: 20px;
+  
+ padding: 6px 42px 0px 0px;
+ margin: 0px 52px 0px 60px; 
+ padding-left: 31px;  
+}
+
+.share {
+    width: 17%;
+    float: right; 
+    background-color: #B0544D;
+    color: white; 
+    font-size: 13px; 
+    /* padding: 15px 40px; */
+    margin-top: 19px;
+    height: 40px;
+   }

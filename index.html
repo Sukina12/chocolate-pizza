@@ -2,75 +2,78 @@
 <html lang="en">
 
 <head>
-  <title>chocolate-pizza</title>
+  
   <link rel="stylesheet" href="./CSS/reset.css">
   <link rel="stylesheet" href="./CSS/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@700&family=Martel:wght@800&family=Pacifico&family=Staatliches&display=swap"
+  rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet"> 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet"> 
+  <title>chocolate-pizza</title>
 </head>
 
 <body>
   <header>
+    <img class="logo" alt="logo-img" src="./assets/logo.png" />
+    <h2>Delicious<span class="logoText">THE BEST FOOD BLOG ON THE WEB.</span></h2>
     <nav class="navBar">
-      <a href="#" class="logo-img">
-        <img class="logo" alt="logo-img" src="./Images/logo.png" />
-        <h2>Delicious<span class="logoText">THE BEST FOOD BLOG ON THE WEB.</span></h2>
-      </a>
+     
       <ul class="socialLogo">
         <li>
           <a href="#">
-            <img alt="fb" src="./Images/fb-icon.png" />
+            <img alt="fb" src="./assets/fb-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img alt="twit" src="./Images/twit-icon.png" />
+            <img alt="twit" src="./assets/twit-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img alt="gp" src="./Images/gp-icon.png" />
+            <img alt="gp" src="./assets/gp-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img alt="insta" src="./Images/insta-icon.png" />
+            <img alt="insta" src="./assets/insta-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img alt="flic" src="./Images/flic-icon.png" />
+            <img alt="flic" src="./assets/flic-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img alt="pint" src="./Images/pint-icon.png" />
+            <img alt="pint" src="./assets/pint-icon.png" />
           </a>
         </li>
         <li>
           <a href="#">
-            <img class="lastimg" alt="rss" src="./Images/rss-icon.png" />
+            <img class="lastimg" alt="rss" src="./assets/rss-icon.png" />
           </a>
         </li>
         <li>
-          <a href="#1 1"><img  alt="mail" src="./Images/mail-icon.png" /> 
+          <a href="#"><img  alt="mail" src="./assets/mail-icon.png" /> 
           </a>
         </li>
       </ul>
     </nav>
+    
   </header>
   <main>
     <section class="line"></section>
     <section class="sec1">
-      <h2>Chocolate Pizza<span>POSTED ON 15 DEC 2013/DESSERTS</span></h2>
+      <h1>Chocolate Pizza<span class="span2" >POSTED ON 15 DEC 2013/DESSERTS</span></h1>
       <button class="print-button">
-         <img src="./Images/pint-icon.png" class="print-img" alt="">
+         <img src="./assets/pint-icon.png" class="print-img" alt="">
           print
       </button>
-      <img alt="choco-pizza" src="./Images/choco-pizza.png" />
+      <img alt="choco-pizza" src="./assets/choco-pizza.png" />
     </section>
     <article>
       <p class="par1">For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve. Halve
@@ -91,8 +94,8 @@
 
     <section class="sec2">
       <div class="pattern">
-        <div class="list">
-          <ul class="listleft">
+        <div class="leftlist">
+          <ul >
             <li>1 1/2 cups milk</li>
             <li>1/2 cup mascarpone</li>
             <li>1/2 tsp pink salt</li>
@@ -100,7 +103,9 @@
             <li>1/2 cup brown sugar</li>
             <li>2-4 tbsp water</li>
           </ul>
-          <ul class="listright">
+        </div>
+        <div class="rightlist">
+          <ul >
             <li>1 1/2 cups heavy cream</li>
             <li class="checked"><span class="check"> 1/3 granulated sugar</span></li>
             <li class="checked"><span class="check"> 2 egg yolks</span></li>
@@ -112,11 +117,13 @@
       </div>
     </section>
     <section class="line"></section>
+     <br/>
+  
     <section class="sec3">
       <div class="vanSec">
-        <img class="vanImg" src="./Images/van-pic.png" alt="Van Pic" />
+        <img class="vanImg" src="./assets/van-pic.png" alt="Van Pic" />
         <div class="vanInf">
-          <p class="vanName">Vanessa Stevenson</p>
+          <h4 class="vanName">Vanessa Stevenson</h4>
           <p class="vanHob">Food enthusiast, photography fan. Add a pinch of raw foodism and that's 
             pretty much who I am.</p> 
         </div>
@@ -125,9 +132,10 @@
     </section>
   </main>
   <footer>
-    <div class="last"><img class="footerImg" src="./Images/small-logo.png" alt="small logo"></div>
-    <p> Delicious &copy; 2013 . All Right Reserved.</p>
-    <p>Proudly published with Ghost.</p>
+    <br/>
+    <hr class="right"><img src="assets/small-logo.png" id="footerpic" alt="">
+
+    <p> Delicious &copy; 2013 . ALL Rights Reserved.<br> Proudly published with Ghost</p>
   </footer>
 </body>
 </html>
